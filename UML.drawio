@@ -630,7 +630,7 @@
           <mxGeometry height="60" width="370" x="90" y="30" as="geometry" />
         </mxCell>
         <mxCell id="6GWRNW8icAmStkwAbtSk-5" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Item" vertex="1">
-          <mxGeometry height="138" width="160" x="420" y="1810" as="geometry" />
+          <mxGeometry height="190" width="160" x="420" y="1810" as="geometry" />
         </mxCell>
         <mxCell id="6GWRNW8icAmStkwAbtSk-6" parent="6GWRNW8icAmStkwAbtSk-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Name: String" vertex="1">
           <mxGeometry height="26" width="160" y="26" as="geometry" />
@@ -638,14 +638,20 @@
         <mxCell id="6GWRNW8icAmStkwAbtSk-30" parent="6GWRNW8icAmStkwAbtSk-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ ItemsNumber: String" vertex="1">
           <mxGeometry height="26" width="160" y="52" as="geometry" />
         </mxCell>
-        <mxCell id="6GWRNW8icAmStkwAbtSk-12" parent="6GWRNW8icAmStkwAbtSk-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Price: int" vertex="1">
+        <mxCell id="6GWRNW8icAmStkwAbtSk-31" parent="6GWRNW8icAmStkwAbtSk-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Price: int" vertex="1">
           <mxGeometry height="26" width="160" y="78" as="geometry" />
         </mxCell>
+        <mxCell id="6GWRNW8icAmStkwAbtSk-32" parent="6GWRNW8icAmStkwAbtSk-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Unit: String" vertex="1">
+          <mxGeometry height="26" width="160" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="6GWRNW8icAmStkwAbtSk-12" parent="6GWRNW8icAmStkwAbtSk-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ PurchaseTime: date" vertex="1">
+          <mxGeometry height="26" width="160" y="130" as="geometry" />
+        </mxCell>
         <mxCell id="6GWRNW8icAmStkwAbtSk-7" parent="6GWRNW8icAmStkwAbtSk-5" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
-          <mxGeometry height="8" width="160" y="104" as="geometry" />
+          <mxGeometry height="8" width="160" y="156" as="geometry" />
         </mxCell>
         <mxCell id="6GWRNW8icAmStkwAbtSk-8" parent="6GWRNW8icAmStkwAbtSk-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ method(type): type" vertex="1">
-          <mxGeometry height="26" width="160" y="112" as="geometry" />
+          <mxGeometry height="26" width="160" y="164" as="geometry" />
         </mxCell>
         <mxCell id="6GWRNW8icAmStkwAbtSk-13" parent="1" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=0;strokeColor=default;fontSize=16;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="品項資料" vertex="1">
           <mxGeometry height="180" width="190" x="690" y="1770" as="geometry" />
