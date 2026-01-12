@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.0">
   <diagram name="Page-1" id="kzkzvZBYqJW7hlvxWcU9">
-    <mxGraphModel dx="1898" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1610" dy="459" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -643,7 +643,7 @@
           <mxGeometry height="60" width="370" x="90" y="30" as="geometry" />
         </mxCell>
         <mxCell id="6GWRNW8icAmStkwAbtSk-5" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Item" vertex="1">
-          <mxGeometry height="242" width="160" x="420" y="1810" as="geometry" />
+          <mxGeometry height="242" width="160" x="100" y="1798" as="geometry" />
         </mxCell>
         <mxCell id="6GWRNW8icAmStkwAbtSk-6" parent="6GWRNW8icAmStkwAbtSk-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Name: String" vertex="1">
           <mxGeometry height="26" width="160" y="26" as="geometry" />
@@ -673,7 +673,7 @@
           <mxGeometry height="26" width="160" y="216" as="geometry" />
         </mxCell>
         <mxCell id="6GWRNW8icAmStkwAbtSk-36" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Label" vertex="1">
-          <mxGeometry height="164" width="160" x="700" y="1849" as="geometry" />
+          <mxGeometry height="164" width="160" x="360" y="1837" as="geometry" />
         </mxCell>
         <mxCell id="6GWRNW8icAmStkwAbtSk-37" parent="6GWRNW8icAmStkwAbtSk-36" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Name: String" vertex="1">
           <mxGeometry height="26" width="160" y="26" as="geometry" />
@@ -704,6 +704,27 @@
         </mxCell>
         <mxCell id="6GWRNW8icAmStkwAbtSk-53" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;fontColor=default;labelBackgroundColor=default;spacingTop=5;spacingLeft=10;" value="&#xa;&lt;font dir=&quot;auto&quot; style=&quot;forced-color-adjust: none; font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; vertical-align: inherit; box-shadow: none !important;&quot;&gt;&lt;font dir=&quot;auto&quot; style=&quot;forced-color-adjust: none; box-shadow: none !important; vertical-align: inherit;&quot;&gt;每個月統計一次&lt;/font&gt;&lt;/font&gt;&lt;div style=&quot;forced-color-adjust: none; font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; box-shadow: none !important;&quot;&gt;&lt;font dir=&quot;auto&quot; style=&quot;forced-color-adjust: none; box-shadow: none !important; vertical-align: inherit;&quot;&gt;&lt;font dir=&quot;auto&quot; style=&quot;forced-color-adjust: none; box-shadow: none !important; vertical-align: inherit;&quot;&gt;分類下每個商品項的數量與價格，並傳回統計點&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; box-shadow: none !important;&quot;&gt;&lt;font dir=&quot;auto&quot; style=&quot;forced-color-adjust: none; box-shadow: none !important; vertical-align: inherit;&quot;&gt;&lt;font dir=&quot;auto&quot; style=&quot;forced-color-adjust: none; box-shadow: none !important; vertical-align: inherit;&quot;&gt;每個分類有數種品項&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; box-shadow: none !important;&quot;&gt;&lt;font dir=&quot;auto&quot; style=&quot;forced-color-adjust: none; box-shadow: none !important; vertical-align: inherit;&quot;&gt;&lt;font dir=&quot;auto&quot; style=&quot;forced-color-adjust: none; box-shadow: none !important; vertical-align: inherit;&quot;&gt;橫軸為分類&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; box-shadow: none !important;&quot;&gt;&lt;font dir=&quot;auto&quot; style=&quot;forced-color-adjust: none; box-shadow: none !important; vertical-align: inherit;&quot;&gt;&lt;font dir=&quot;auto&quot; style=&quot;forced-color-adjust: none; box-shadow: none !important; vertical-align: inherit;&quot;&gt;垂直軸為價格&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; box-shadow: none !important;&quot;&gt;&lt;font dir=&quot;auto&quot; style=&quot;forced-color-adjust: none; box-shadow: none !important; vertical-align: inherit;&quot;&gt;&lt;font dir=&quot;auto&quot; style=&quot;forced-color-adjust: none; box-shadow: none !important; vertical-align: inherit;&quot;&gt;暫時以顏色區分品項&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&#xa;&#xa;" vertex="1">
           <mxGeometry height="140" width="330" x="975" y="1849" as="geometry" />
+        </mxCell>
+        <mxCell id="Br6XwzKSUiLhvO-xy9rC-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="LabelRepository" vertex="1">
+          <mxGeometry height="164" width="160" x="630" y="1840" as="geometry" />
+        </mxCell>
+        <mxCell id="Br6XwzKSUiLhvO-xy9rC-2" parent="Br6XwzKSUiLhvO-xy9rC-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Name: String" vertex="1">
+          <mxGeometry height="26" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Br6XwzKSUiLhvO-xy9rC-3" parent="Br6XwzKSUiLhvO-xy9rC-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Founder: String" vertex="1">
+          <mxGeometry height="26" width="160" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="Br6XwzKSUiLhvO-xy9rC-4" parent="Br6XwzKSUiLhvO-xy9rC-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ ItemList: List" vertex="1">
+          <mxGeometry height="26" width="160" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="Br6XwzKSUiLhvO-xy9rC-5" parent="Br6XwzKSUiLhvO-xy9rC-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="Br6XwzKSUiLhvO-xy9rC-6" parent="Br6XwzKSUiLhvO-xy9rC-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ getName(): string" vertex="1">
+          <mxGeometry height="26" width="160" y="112" as="geometry" />
+        </mxCell>
+        <mxCell id="Br6XwzKSUiLhvO-xy9rC-7" parent="Br6XwzKSUiLhvO-xy9rC-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ getItemList(): List" vertex="1">
+          <mxGeometry height="26" width="160" y="138" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
