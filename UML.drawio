@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.1">
   <diagram name="Page-1" id="kzkzvZBYqJW7hlvxWcU9">
-    <mxGraphModel dx="1223" dy="229" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1397" dy="329" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -743,8 +743,8 @@
             <mxPoint x="508.89414925373137" y="241.17738666666662" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="N38Kv8uFTcTHmcsksyS8-129" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="編號生成原則&lt;div&gt;1. 由兩字母+&lt;/div&gt;" vertex="1">
-          <mxGeometry height="160" width="200" x="2400" y="960" as="geometry" />
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-129" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="編號生成原則&lt;div&gt;1. &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;由兩字母 + 色碼 + 四位數字組成&lt;/div&gt;&lt;div&gt;2. &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;兩字母第一位為 : 父標籤名稱首字母&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;   &lt;/span&gt;第二位為 : 該品項名稱首字母&lt;br&gt;&lt;/div&gt;&lt;div&gt;3.&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="160" width="240" x="2400" y="960" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
