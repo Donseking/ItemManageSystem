@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.1">
   <diagram name="Page-1" id="kzkzvZBYqJW7hlvxWcU9">
-    <mxGraphModel dx="1302" dy="274" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1506" dy="392" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -749,19 +749,19 @@
         <mxCell id="N38Kv8uFTcTHmcsksyS8-130" parent="N38Kv8uFTcTHmcsksyS8-131" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="160" width="320" as="geometry" />
         </mxCell>
-        <mxCell id="N38Kv8uFTcTHmcsksyS8-129" parent="N38Kv8uFTcTHmcsksyS8-131" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="品項編號生成原則&lt;div&gt;1. &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;由父標籤編號 + 四位數字組成&lt;/div&gt;&lt;div&gt;2&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;後四位數字非隨機生成，由品項建立順序決定&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;，未滿足四位則前方填充0&lt;br&gt;&lt;/div&gt;&lt;div&gt;例 :&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;AF14 FFFFFF0001&lt;/div&gt;" vertex="1">
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-129" parent="N38Kv8uFTcTHmcsksyS8-131" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="品項編號生成原則&lt;div&gt;1. &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;由父標籤編號 + 四位數字組成&lt;/div&gt;&lt;div&gt;2&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;後四位數字非隨機生成，由品項建立順序決定&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;，未滿足四位則前方填充0&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;例 :&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;AF140001&lt;/div&gt;" vertex="1">
           <mxGeometry height="160" width="280" x="20" as="geometry" />
         </mxCell>
         <mxCell id="N38Kv8uFTcTHmcsksyS8-136" edge="1" parent="1" source="N38Kv8uFTcTHmcsksyS8-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="N38Kv8uFTcTHmcsksyS8-133">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="N38Kv8uFTcTHmcsksyS8-132" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="編號生成開始" vertex="1">
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-132" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="標籤編號生成開始" vertex="1">
           <mxGeometry height="80" width="160" y="1680" as="geometry" />
         </mxCell>
         <mxCell id="N38Kv8uFTcTHmcsksyS8-137" edge="1" parent="1" source="N38Kv8uFTcTHmcsksyS8-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="N38Kv8uFTcTHmcsksyS8-134">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="N38Kv8uFTcTHmcsksyS8-133" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="獲取該品項父標籤名稱" vertex="1">
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-133" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="隨機生成兩個字母" vertex="1">
           <mxGeometry height="80" width="160" y="1800" as="geometry" />
         </mxCell>
         <mxCell id="N38Kv8uFTcTHmcsksyS8-134" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="獲取該品項名稱和色碼" vertex="1">
@@ -776,7 +776,7 @@
         <mxCell id="N38Kv8uFTcTHmcsksyS8-140" parent="N38Kv8uFTcTHmcsksyS8-139" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="160" width="320" as="geometry" />
         </mxCell>
-        <mxCell id="N38Kv8uFTcTHmcsksyS8-141" parent="N38Kv8uFTcTHmcsksyS8-139" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="標籤編號生成原則&lt;div&gt;1. 共兩大寫字母 + 一個隨機二位正整數&lt;/div&gt;&lt;div&gt;2. 兩字母可重複，隨機數不可與其他編號重複&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;例 : AF14&lt;/div&gt;" vertex="1">
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-141" parent="N38Kv8uFTcTHmcsksyS8-139" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="標籤編號生成原則&lt;div&gt;1. &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;共兩隨機大寫字母 + 一個隨機二位正整數&lt;/div&gt;&lt;div&gt;2. &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;組合後不可重複&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;例 : AF14&lt;/div&gt;" vertex="1">
           <mxGeometry height="160" width="281" x="20" as="geometry" />
         </mxCell>
       </root>
