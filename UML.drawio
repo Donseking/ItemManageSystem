@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.1">
   <diagram name="Page-1" id="kzkzvZBYqJW7hlvxWcU9">
-    <mxGraphModel dx="1619" dy="457" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1397" dy="329" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -761,6 +761,9 @@
         </mxCell>
         <mxCell id="N38Kv8uFTcTHmcsksyS8-34" parent="N38Kv8uFTcTHmcsksyS8-30" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1">
           <mxGeometry height="26" width="230" y="112" as="geometry" />
+        </mxCell>
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-41" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;fontColor=default;labelBackgroundColor=default;spacingTop=5;spacingLeft=10;" value="&lt;div&gt;統計功能&lt;/div&gt;出貨功能&lt;div&gt;進貨功能&lt;/div&gt;&lt;div&gt;編號生成&lt;/div&gt;&lt;div&gt;品項搜索 ==&amp;gt; 編號 + 演算法&lt;/div&gt;&lt;div&gt;編號對應表&lt;/div&gt;&lt;div&gt;進出貨日誌&lt;/div&gt;&lt;div&gt;系統操作日誌&lt;/div&gt;" vertex="1">
+          <mxGeometry height="161" width="330" x="1370" y="1849" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
