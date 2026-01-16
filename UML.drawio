@@ -769,7 +769,7 @@
           <mxGeometry height="161" width="330" x="1370" y="1849" as="geometry" />
         </mxCell>
         <mxCell id="N38Kv8uFTcTHmcsksyS8-45" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;RecordsList&lt;/span&gt;" vertex="1">
-          <mxGeometry height="164" width="230" x="600" y="2080" as="geometry" />
+          <mxGeometry height="190" width="230" x="600" y="2080" as="geometry" />
         </mxCell>
         <mxCell id="N38Kv8uFTcTHmcsksyS8-46" parent="N38Kv8uFTcTHmcsksyS8-45" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ PurchaseRecords : ArrayList&amp;lt;int&amp;gt;" vertex="1">
           <mxGeometry height="26" width="230" y="26" as="geometry" />
@@ -788,6 +788,9 @@
         </mxCell>
         <mxCell id="N38Kv8uFTcTHmcsksyS8-51" parent="N38Kv8uFTcTHmcsksyS8-45" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ getShipment() : ArrayList&amp;lt;int&amp;gt;" vertex="1">
           <mxGeometry height="26" width="230" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-52" parent="N38Kv8uFTcTHmcsksyS8-45" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ getInventory() : ArrayList&amp;lt;int&amp;gt;" vertex="1">
+          <mxGeometry height="26" width="230" y="164" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
