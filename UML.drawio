@@ -783,7 +783,7 @@
         <mxCell id="N38Kv8uFTcTHmcsksyS8-55" parent="N38Kv8uFTcTHmcsksyS8-54" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Statistics(&amp;nbsp; ArrayList&amp;lt;int&amp;gt;, ArrayList&amp;lt;int&amp;gt; ) : ArrayList&amp;lt;int&amp;gt;" vertex="1">
           <mxGeometry height="26" width="360" y="26" as="geometry" />
         </mxCell>
-        <mxCell id="N38Kv8uFTcTHmcsksyS8-56" parent="N38Kv8uFTcTHmcsksyS8-54" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ ResetItemInventory() : void" vertex="1">
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-56" parent="N38Kv8uFTcTHmcsksyS8-54" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ ResetItemInventory()" vertex="1">
           <mxGeometry height="26" width="360" y="52" as="geometry" />
         </mxCell>
         <mxCell id="N38Kv8uFTcTHmcsksyS8-58" edge="1" parent="1" source="N38Kv8uFTcTHmcsksyS8-54" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" target="N38Kv8uFTcTHmcsksyS8-45" value="Use">
