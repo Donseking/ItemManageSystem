@@ -747,7 +747,7 @@
         <mxCell id="N38Kv8uFTcTHmcsksyS8-30" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;InventoryStatistics&lt;/span&gt;" vertex="1">
           <mxGeometry height="164" width="230" x="320" y="2080" as="geometry" />
         </mxCell>
-        <mxCell id="N38Kv8uFTcTHmcsksyS8-31" parent="N38Kv8uFTcTHmcsksyS8-30" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ PurchaseRecords : List" vertex="1">
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-31" parent="N38Kv8uFTcTHmcsksyS8-30" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ PurchaseRecords : ArrayList&amp;lt;int&amp;gt;" vertex="1">
           <mxGeometry height="26" width="230" y="26" as="geometry" />
         </mxCell>
         <mxCell id="N38Kv8uFTcTHmcsksyS8-35" parent="N38Kv8uFTcTHmcsksyS8-30" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ ShipmentRecords : ArrayList&amp;lt;int&amp;gt;" vertex="1">
@@ -767,6 +767,27 @@
         </mxCell>
         <mxCell id="N38Kv8uFTcTHmcsksyS8-41" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;fontColor=default;labelBackgroundColor=default;spacingTop=5;spacingLeft=10;" value="&lt;div&gt;統計功能 資料庫系統&lt;/div&gt;出貨功能&lt;div&gt;進貨功能&lt;/div&gt;&lt;div&gt;編號生成&lt;/div&gt;&lt;div&gt;品項搜索 ==&amp;gt; 編號 + 演算法&lt;/div&gt;&lt;div&gt;編號對應表&lt;/div&gt;&lt;div&gt;進出貨日誌&lt;/div&gt;&lt;div&gt;系統操作日誌&lt;/div&gt;" vertex="1">
           <mxGeometry height="161" width="330" x="1370" y="1849" as="geometry" />
+        </mxCell>
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-45" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;RecordsList&lt;/span&gt;" vertex="1">
+          <mxGeometry height="164" width="230" x="600" y="2080" as="geometry" />
+        </mxCell>
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-46" parent="N38Kv8uFTcTHmcsksyS8-45" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ PurchaseRecords : ArrayList&amp;lt;int&amp;gt;" vertex="1">
+          <mxGeometry height="26" width="230" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-47" parent="N38Kv8uFTcTHmcsksyS8-45" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ ShipmentRecords : ArrayList&amp;lt;int&amp;gt;" vertex="1">
+          <mxGeometry height="26" width="230" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-48" parent="N38Kv8uFTcTHmcsksyS8-45" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ InventoryList : ArrayList&amp;lt;int&amp;gt;" vertex="1">
+          <mxGeometry height="26" width="230" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-49" parent="N38Kv8uFTcTHmcsksyS8-45" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="230" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-50" parent="N38Kv8uFTcTHmcsksyS8-45" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ getPurchase() : ArrayList&amp;lt;int&amp;gt;" vertex="1">
+          <mxGeometry height="26" width="230" y="112" as="geometry" />
+        </mxCell>
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-51" parent="N38Kv8uFTcTHmcsksyS8-45" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ getShipment() : ArrayList&amp;lt;int&amp;gt;" vertex="1">
+          <mxGeometry height="26" width="230" y="138" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
