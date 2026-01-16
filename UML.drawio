@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.1">
   <diagram name="Page-1" id="kzkzvZBYqJW7hlvxWcU9">
-    <mxGraphModel dx="1397" dy="329" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1540" dy="412" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -256,7 +256,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0GQpem9-3NIejOcKKFE8-71" parent="0GQpem9-3NIejOcKKFE8-81" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=0;strokeColor=default;fontSize=16;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="職位分類" vertex="1">
-          <mxGeometry height="90" width="200" x="20" y="309.9955213675214" as="geometry" />
+          <mxGeometry height="90" width="200" x="20" y="289.9955213675214" as="geometry" />
         </mxCell>
         <mxCell id="0GQpem9-3NIejOcKKFE8-72" parent="0GQpem9-3NIejOcKKFE8-71" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="" vertex="1">
           <mxGeometry height="30" width="200" y="30" as="geometry" />
@@ -285,7 +285,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0GQpem9-3NIejOcKKFE8-122" parent="0GQpem9-3NIejOcKKFE8-81" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=0;strokeColor=default;fontSize=16;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="標籤分類" vertex="1">
-          <mxGeometry height="120" width="190" x="230" y="309.9955213675214" as="geometry" />
+          <mxGeometry height="150" width="190" x="230" y="289.9955213675214" as="geometry" />
         </mxCell>
         <mxCell id="0GQpem9-3NIejOcKKFE8-123" parent="0GQpem9-3NIejOcKKFE8-122" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="" vertex="1">
           <mxGeometry height="30" width="190" y="30" as="geometry" />
@@ -322,6 +322,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="6UTPnV0mcfPMxE2xIx9s-216" parent="6UTPnV0mcfPMxE2xIx9s-214" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=1;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;" value="ItemList" vertex="1">
+          <mxGeometry height="30" width="130" x="60" as="geometry">
+            <mxRectangle height="30" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-164" parent="0GQpem9-3NIejOcKKFE8-122" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1">
+          <mxGeometry height="30" width="190" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-165" parent="N38Kv8uFTcTHmcsksyS8-164" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=1;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=inherit;fontSize=16;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;" value="String" vertex="1">
+          <mxGeometry height="30" width="60" as="geometry">
+            <mxRectangle height="30" width="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-166" parent="N38Kv8uFTcTHmcsksyS8-164" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=1;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;" value="LabelNumber" vertex="1">
           <mxGeometry height="30" width="130" x="60" as="geometry">
             <mxRectangle height="30" width="130" as="alternateBounds" />
           </mxGeometry>
@@ -752,24 +765,6 @@
         <mxCell id="N38Kv8uFTcTHmcsksyS8-129" parent="N38Kv8uFTcTHmcsksyS8-131" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="品項編號生成原則&lt;div&gt;1. &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;由父標籤編號 + 四位數字組成&lt;/div&gt;&lt;div&gt;2&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;後四位數字非隨機生成，由該品項在其父標&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;籤所建立順序決定&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;，未滿足四位則前方填充0&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;例 :&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;AF140001&lt;/div&gt;" vertex="1">
           <mxGeometry height="160" width="280" x="20" as="geometry" />
         </mxCell>
-        <mxCell id="N38Kv8uFTcTHmcsksyS8-136" edge="1" parent="1" source="N38Kv8uFTcTHmcsksyS8-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="N38Kv8uFTcTHmcsksyS8-133">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="N38Kv8uFTcTHmcsksyS8-132" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="標籤編號生成開始" vertex="1">
-          <mxGeometry height="80" width="160" y="1680" as="geometry" />
-        </mxCell>
-        <mxCell id="N38Kv8uFTcTHmcsksyS8-137" edge="1" parent="1" source="N38Kv8uFTcTHmcsksyS8-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="N38Kv8uFTcTHmcsksyS8-134">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="N38Kv8uFTcTHmcsksyS8-133" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="隨機生成兩個字母和 0 - 99&lt;div&gt;的隨機數&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="160" y="1800" as="geometry" />
-        </mxCell>
-        <mxCell id="N38Kv8uFTcTHmcsksyS8-134" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="獲取該品項名稱和色碼" vertex="1">
-          <mxGeometry height="80" width="160" y="1920" as="geometry" />
-        </mxCell>
-        <mxCell id="N38Kv8uFTcTHmcsksyS8-138" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="獲取該品項名稱和色碼" vertex="1">
-          <mxGeometry height="80" width="160" y="2040" as="geometry" />
-        </mxCell>
         <mxCell id="N38Kv8uFTcTHmcsksyS8-139" connectable="0" parent="1" style="group;spacingTop=10;verticalAlign=middle;" value="" vertex="1">
           <mxGeometry height="160" width="320" x="2320" y="800" as="geometry" />
         </mxCell>
@@ -778,6 +773,82 @@
         </mxCell>
         <mxCell id="N38Kv8uFTcTHmcsksyS8-141" parent="N38Kv8uFTcTHmcsksyS8-139" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="標籤編號生成原則&lt;div&gt;1. &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;共兩隨機大寫字母 + 一個隨機二位正整數&lt;/div&gt;&lt;div&gt;2. &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;組合後不可重複&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;例 : AF14&lt;/div&gt;" vertex="1">
           <mxGeometry height="160" width="281" x="20" as="geometry" />
+        </mxCell>
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-161" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="560" width="480" x="-320" y="1520" as="geometry" />
+        </mxCell>
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-159" parent="N38Kv8uFTcTHmcsksyS8-161" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="560" width="480" as="geometry" />
+        </mxCell>
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-158" connectable="0" parent="N38Kv8uFTcTHmcsksyS8-161" style="group" value="" vertex="1">
+          <mxGeometry height="440" width="400" x="40" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-136" edge="1" parent="N38Kv8uFTcTHmcsksyS8-158" source="N38Kv8uFTcTHmcsksyS8-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="N38Kv8uFTcTHmcsksyS8-133">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-132" parent="N38Kv8uFTcTHmcsksyS8-158" style="ellipse;whiteSpace=wrap;html=1;" value="標籤編號生成開始" vertex="1">
+          <mxGeometry height="80" width="160" x="40" as="geometry" />
+        </mxCell>
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-143" edge="1" parent="N38Kv8uFTcTHmcsksyS8-158" source="N38Kv8uFTcTHmcsksyS8-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="N38Kv8uFTcTHmcsksyS8-142">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-133" parent="N38Kv8uFTcTHmcsksyS8-158" style="rounded=1;whiteSpace=wrap;html=1;" value="隨機生成兩個字母和 0 - 99&lt;div&gt;的隨機數&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="40" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-145" edge="1" parent="N38Kv8uFTcTHmcsksyS8-158" source="N38Kv8uFTcTHmcsksyS8-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="N38Kv8uFTcTHmcsksyS8-144">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-142" parent="N38Kv8uFTcTHmcsksyS8-158" style="rhombus;whiteSpace=wrap;html=1;" value="對應表是否建立" vertex="1">
+          <mxGeometry height="80" width="160" x="40" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-150" edge="1" parent="N38Kv8uFTcTHmcsksyS8-158" source="N38Kv8uFTcTHmcsksyS8-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="N38Kv8uFTcTHmcsksyS8-133">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint y="400" />
+              <mxPoint y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-153" edge="1" parent="N38Kv8uFTcTHmcsksyS8-158" source="N38Kv8uFTcTHmcsksyS8-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="N38Kv8uFTcTHmcsksyS8-147">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-144" parent="N38Kv8uFTcTHmcsksyS8-158" style="rhombus;whiteSpace=wrap;html=1;" value="是否重複" vertex="1">
+          <mxGeometry height="80" width="160" x="40" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-146" parent="N38Kv8uFTcTHmcsksyS8-158" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="是" vertex="1">
+          <mxGeometry height="30" width="40" x="125" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-156" edge="1" parent="N38Kv8uFTcTHmcsksyS8-158" source="N38Kv8uFTcTHmcsksyS8-147" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="N38Kv8uFTcTHmcsksyS8-155">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-147" parent="N38Kv8uFTcTHmcsksyS8-158" style="rounded=1;whiteSpace=wrap;html=1;" value="直接加入對應表中" vertex="1">
+          <mxGeometry height="80" width="160" x="240" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-157" edge="1" parent="N38Kv8uFTcTHmcsksyS8-158" source="N38Kv8uFTcTHmcsksyS8-149" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="280" />
+            </Array>
+            <mxPoint x="320" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-149" parent="N38Kv8uFTcTHmcsksyS8-158" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="否" vertex="1">
+          <mxGeometry height="30" width="40" x="200" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-151" parent="N38Kv8uFTcTHmcsksyS8-158" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="是" vertex="1">
+          <mxGeometry height="30" width="40" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-154" parent="N38Kv8uFTcTHmcsksyS8-158" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="否" vertex="1">
+          <mxGeometry height="30" width="40" x="200" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-155" parent="N38Kv8uFTcTHmcsksyS8-158" style="ellipse;whiteSpace=wrap;html=1;" value="標籤編號生成結束" vertex="1">
+          <mxGeometry height="80" width="160" x="240" as="geometry" />
+        </mxCell>
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-160" parent="N38Kv8uFTcTHmcsksyS8-161" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;" value="標籤編號生成流程" vertex="1">
+          <mxGeometry height="30" width="320" x="80" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-163" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="品項編號生成流程" vertex="1">
+          <mxGeometry height="80" width="160" x="280" y="1560" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
