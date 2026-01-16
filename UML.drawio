@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.1">
   <diagram name="Page-1" id="kzkzvZBYqJW7hlvxWcU9">
-    <mxGraphModel dx="1810" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1642" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -682,7 +682,7 @@
           <mxGeometry height="26" width="160" y="294" as="geometry" />
         </mxCell>
         <mxCell id="6GWRNW8icAmStkwAbtSk-36" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Label" vertex="1">
-          <mxGeometry height="216" width="160" x="320" y="1837" as="geometry" />
+          <mxGeometry height="216" width="160" x="320" y="1798" as="geometry" />
         </mxCell>
         <mxCell id="6GWRNW8icAmStkwAbtSk-37" parent="6GWRNW8icAmStkwAbtSk-36" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Name: String" vertex="1">
           <mxGeometry height="26" width="160" y="26" as="geometry" />
@@ -721,7 +721,7 @@
           <mxGeometry height="140" width="330" x="975" y="1849" as="geometry" />
         </mxCell>
         <mxCell id="Br6XwzKSUiLhvO-xy9rC-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="LabelRepository" vertex="1">
-          <mxGeometry height="138" width="200" x="520" y="1876" as="geometry" />
+          <mxGeometry height="138" width="200" x="520" y="1798" as="geometry" />
         </mxCell>
         <mxCell id="Br6XwzKSUiLhvO-xy9rC-4" parent="Br6XwzKSUiLhvO-xy9rC-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ LabelList: List" vertex="1">
           <mxGeometry height="26" width="200" y="26" as="geometry" />
@@ -745,22 +745,25 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="N38Kv8uFTcTHmcsksyS8-30" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;InventoryStatistics&lt;/span&gt;" vertex="1">
-          <mxGeometry height="138" width="230" x="310" y="2100" as="geometry" />
+          <mxGeometry height="164" width="230" x="320" y="2080" as="geometry" />
         </mxCell>
         <mxCell id="N38Kv8uFTcTHmcsksyS8-31" parent="N38Kv8uFTcTHmcsksyS8-30" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ PurchaseRecords : List" vertex="1">
           <mxGeometry height="26" width="230" y="26" as="geometry" />
         </mxCell>
-        <mxCell id="N38Kv8uFTcTHmcsksyS8-35" parent="N38Kv8uFTcTHmcsksyS8-30" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ ShipmentRecords : List" vertex="1">
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-35" parent="N38Kv8uFTcTHmcsksyS8-30" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ ShipmentRecords : ArrayList&amp;lt;int&amp;gt;" vertex="1">
           <mxGeometry height="26" width="230" y="52" as="geometry" />
         </mxCell>
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-42" parent="N38Kv8uFTcTHmcsksyS8-30" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ InventoryList : ArrayList&amp;lt;int&amp;gt;" vertex="1">
+          <mxGeometry height="26" width="230" y="78" as="geometry" />
+        </mxCell>
         <mxCell id="N38Kv8uFTcTHmcsksyS8-32" parent="N38Kv8uFTcTHmcsksyS8-30" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
-          <mxGeometry height="8" width="230" y="78" as="geometry" />
+          <mxGeometry height="8" width="230" y="104" as="geometry" />
         </mxCell>
         <mxCell id="N38Kv8uFTcTHmcsksyS8-33" parent="N38Kv8uFTcTHmcsksyS8-30" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ method(type): type" vertex="1">
-          <mxGeometry height="26" width="230" y="86" as="geometry" />
+          <mxGeometry height="26" width="230" y="112" as="geometry" />
         </mxCell>
         <mxCell id="N38Kv8uFTcTHmcsksyS8-34" parent="N38Kv8uFTcTHmcsksyS8-30" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1">
-          <mxGeometry height="26" width="230" y="112" as="geometry" />
+          <mxGeometry height="26" width="230" y="138" as="geometry" />
         </mxCell>
         <mxCell id="N38Kv8uFTcTHmcsksyS8-41" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;fontColor=default;labelBackgroundColor=default;spacingTop=5;spacingLeft=10;" value="&lt;div&gt;統計功能 資料庫系統&lt;/div&gt;出貨功能&lt;div&gt;進貨功能&lt;/div&gt;&lt;div&gt;編號生成&lt;/div&gt;&lt;div&gt;品項搜索 ==&amp;gt; 編號 + 演算法&lt;/div&gt;&lt;div&gt;編號對應表&lt;/div&gt;&lt;div&gt;進出貨日誌&lt;/div&gt;&lt;div&gt;系統操作日誌&lt;/div&gt;" vertex="1">
           <mxGeometry height="161" width="330" x="1370" y="1849" as="geometry" />
