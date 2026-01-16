@@ -643,7 +643,7 @@
           <mxGeometry height="60" width="370" x="90" y="30" as="geometry" />
         </mxCell>
         <mxCell id="6GWRNW8icAmStkwAbtSk-5" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Item" vertex="1">
-          <mxGeometry height="268" width="160" x="120" y="1798" as="geometry" />
+          <mxGeometry height="294" width="160" x="120" y="1798" as="geometry" />
         </mxCell>
         <mxCell id="6GWRNW8icAmStkwAbtSk-6" parent="6GWRNW8icAmStkwAbtSk-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Name: String" vertex="1">
           <mxGeometry height="26" width="160" y="26" as="geometry" />
@@ -674,6 +674,9 @@
         </mxCell>
         <mxCell id="6GWRNW8icAmStkwAbtSk-35" parent="6GWRNW8icAmStkwAbtSk-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ getPurchaseTime(): date" vertex="1">
           <mxGeometry height="26" width="160" y="242" as="geometry" />
+        </mxCell>
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-23" parent="6GWRNW8icAmStkwAbtSk-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ getColor() : String" vertex="1">
+          <mxGeometry height="26" width="160" y="268" as="geometry" />
         </mxCell>
         <mxCell id="6GWRNW8icAmStkwAbtSk-36" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Label" vertex="1">
           <mxGeometry height="164" width="160" x="320" y="1837" as="geometry" />
