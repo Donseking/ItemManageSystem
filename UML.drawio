@@ -592,7 +592,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="N38Kv8uFTcTHmcsksyS8-45" parent="N38Kv8uFTcTHmcsksyS8-117" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;RecordsRepository&lt;/span&gt;" vertex="1">
-          <mxGeometry height="192.18666666666664" width="388.93" x="201.06537313432835" y="415.8166666666667" as="geometry">
+          <mxGeometry height="218.5333333333333" width="388.93" x="201.06537313432835" y="415.8166666666667" as="geometry">
             <mxRectangle height="30" width="140" x="241.07" y="438.11" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -608,14 +608,17 @@
         <mxCell id="N38Kv8uFTcTHmcsksyS8-123" parent="N38Kv8uFTcTHmcsksyS8-45" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ ShipmentPriceRecords : HashMap&amp;lt;String, ArrayList&amp;lt;int&amp;gt;&amp;gt;" vertex="1">
           <mxGeometry height="26.346666666666668" width="388.93" y="105.03999999999999" as="geometry" />
         </mxCell>
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-271" parent="N38Kv8uFTcTHmcsksyS8-45" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ MergeQuantityPrice()" vertex="1">
+          <mxGeometry height="26.346666666666668" width="388.93" y="131.38666666666666" as="geometry" />
+        </mxCell>
         <mxCell id="N38Kv8uFTcTHmcsksyS8-49" parent="N38Kv8uFTcTHmcsksyS8-45" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
-          <mxGeometry height="8.106666666666667" width="388.93" y="131.38666666666666" as="geometry" />
+          <mxGeometry height="8.106666666666667" width="388.93" y="157.73333333333332" as="geometry" />
         </mxCell>
         <mxCell id="N38Kv8uFTcTHmcsksyS8-50" parent="N38Kv8uFTcTHmcsksyS8-45" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ getPurchase( String ) : ArrayList&amp;lt;int&amp;gt;" vertex="1">
-          <mxGeometry height="26.346666666666668" width="388.93" y="139.4933333333333" as="geometry" />
+          <mxGeometry height="26.346666666666668" width="388.93" y="165.83999999999997" as="geometry" />
         </mxCell>
         <mxCell id="N38Kv8uFTcTHmcsksyS8-51" parent="N38Kv8uFTcTHmcsksyS8-45" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ getShipment( String ) : ArrayList&amp;lt;int&amp;gt;" vertex="1">
-          <mxGeometry height="26.346666666666668" width="388.93" y="165.83999999999997" as="geometry" />
+          <mxGeometry height="26.346666666666668" width="388.93" y="192.18666666666664" as="geometry" />
         </mxCell>
         <mxCell id="N38Kv8uFTcTHmcsksyS8-54" parent="N38Kv8uFTcTHmcsksyS8-117" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="InventoryCalculator" vertex="1">
           <mxGeometry height="131.38666666666666" width="388.93" x="201.06537313432835" y="166.66666666666674" as="geometry">
@@ -867,6 +870,18 @@
             <mxPoint x="1700" y="1759" as="sourcePoint" />
             <mxPoint x="1714" y="1720" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-272" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Records" vertex="1">
+          <mxGeometry height="104" width="140" x="1658" y="1970" as="geometry" />
+        </mxCell>
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-273" parent="N38Kv8uFTcTHmcsksyS8-272" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Quantity : int" vertex="1">
+          <mxGeometry height="26" width="140" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-274" parent="N38Kv8uFTcTHmcsksyS8-272" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Price : int" vertex="1">
+          <mxGeometry height="26" width="140" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-275" parent="N38Kv8uFTcTHmcsksyS8-272" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Date : LocalDate" vertex="1">
+          <mxGeometry height="26" width="140" y="78" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
