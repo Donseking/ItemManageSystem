@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.1">
   <diagram name="Page-1" id="kzkzvZBYqJW7hlvxWcU9">
-    <mxGraphModel dx="1506" dy="392" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1642" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -596,7 +596,7 @@
             <mxRectangle height="30" width="140" x="241.07" y="438.11" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="N38Kv8uFTcTHmcsksyS8-46" parent="N38Kv8uFTcTHmcsksyS8-45" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ PurchaseQuantityRecords : HashMap&amp;lt;String, ArrayList&amp;lt;int&amp;gt;&amp;gt;" vertex="1">
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-46" parent="N38Kv8uFTcTHmcsksyS8-45" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ PurchaseQuantityRecords : HashMap&amp;lt;String, List&amp;lt;Records&amp;gt;&amp;gt;" vertex="1">
           <mxGeometry height="26.346666666666668" width="388.93" y="26" as="geometry" />
         </mxCell>
         <mxCell id="N38Kv8uFTcTHmcsksyS8-122" parent="N38Kv8uFTcTHmcsksyS8-45" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ PurchasePriceRecords : HashMap&amp;lt;String, ArrayList&amp;lt;int&amp;gt;&amp;gt;" vertex="1">
@@ -872,7 +872,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="N38Kv8uFTcTHmcsksyS8-272" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Records" vertex="1">
-          <mxGeometry height="104" width="140" x="1658" y="1970" as="geometry" />
+          <mxGeometry height="104" width="140" x="1654" y="1960" as="geometry" />
         </mxCell>
         <mxCell id="N38Kv8uFTcTHmcsksyS8-273" parent="N38Kv8uFTcTHmcsksyS8-272" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Quantity : int" vertex="1">
           <mxGeometry height="26" width="140" y="26" as="geometry" />
@@ -882,6 +882,12 @@
         </mxCell>
         <mxCell id="N38Kv8uFTcTHmcsksyS8-275" parent="N38Kv8uFTcTHmcsksyS8-272" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Date : LocalDate" vertex="1">
           <mxGeometry height="26" width="140" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-276" edge="1" parent="1" source="N38Kv8uFTcTHmcsksyS8-272" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;" target="N38Kv8uFTcTHmcsksyS8-45" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="1620" y="2030" as="sourcePoint" />
+            <mxPoint x="1620" y="2095" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
