@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.1">
   <diagram name="Page-1" id="kzkzvZBYqJW7hlvxWcU9">
-    <mxGraphModel dx="2015" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1506" dy="392" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -597,7 +597,7 @@
         <mxCell id="N38Kv8uFTcTHmcsksyS8-118" parent="N38Kv8uFTcTHmcsksyS8-119" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;StatisticsUseCase&lt;/span&gt;" vertex="1">
           <mxGeometry height="30.400000000000002" width="258.5492537313433" x="211.72537313432835" y="30.400000000000002" as="geometry" />
         </mxCell>
-        <mxCell id="N38Kv8uFTcTHmcsksyS8-54" parent="N38Kv8uFTcTHmcsksyS8-119" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="InventoryStatistics" vertex="1">
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-54" parent="N38Kv8uFTcTHmcsksyS8-119" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="InventoryCalculator" vertex="1">
           <mxGeometry height="131.38666666666666" width="388.93" x="247.07" y="280" as="geometry">
             <mxRectangle height="30" width="140" x="241.07" y="280" as="alternateBounds" />
           </mxGeometry>
@@ -651,7 +651,7 @@
             <mxRectangle height="30" width="140" x="241.07" y="438.11" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="N38Kv8uFTcTHmcsksyS8-46" parent="N38Kv8uFTcTHmcsksyS8-45" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ PurchaseQuantityRecords : ArrayList&amp;lt;int&amp;gt;" vertex="1">
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-46" parent="N38Kv8uFTcTHmcsksyS8-45" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ PurchaseQuantityRecords : HashMap&amp;lt;String, ArrayList&amp;lt;int&amp;gt;&amp;gt;" vertex="1">
           <mxGeometry height="26.346666666666668" width="388.93" y="26" as="geometry" />
         </mxCell>
         <mxCell id="N38Kv8uFTcTHmcsksyS8-122" parent="N38Kv8uFTcTHmcsksyS8-45" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ PurchasePriceRecords : ArrayList&amp;lt;int&amp;gt;" vertex="1">
@@ -811,8 +811,50 @@
         <mxCell id="N38Kv8uFTcTHmcsksyS8-195" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="讀取該品項庫存量" vertex="1">
           <mxGeometry height="80" width="159" x="1121" y="2520" as="geometry" />
         </mxCell>
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-201" edge="1" parent="1" source="N38Kv8uFTcTHmcsksyS8-198" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="N38Kv8uFTcTHmcsksyS8-200">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="N38Kv8uFTcTHmcsksyS8-198" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="存回品項" vertex="1">
           <mxGeometry height="80" width="159" x="1121" y="2880" as="geometry" />
+        </mxCell>
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-200" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="單一品項統計結束" vertex="1">
+          <mxGeometry height="80" width="159" x="1121" y="3000" as="geometry" />
+        </mxCell>
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-204" edge="1" parent="1" source="N38Kv8uFTcTHmcsksyS8-202" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="N38Kv8uFTcTHmcsksyS8-203">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-202" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="進貨流程開始" vertex="1">
+          <mxGeometry height="80" width="159" x="560.5" y="2280" as="geometry" />
+        </mxCell>
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-207" edge="1" parent="1" source="N38Kv8uFTcTHmcsksyS8-203" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="N38Kv8uFTcTHmcsksyS8-206">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-203" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="輸入進貨品項名稱" vertex="1">
+          <mxGeometry height="80" width="159.5" x="560.5" y="2400" as="geometry" />
+        </mxCell>
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-211" edge="1" parent="1" source="N38Kv8uFTcTHmcsksyS8-206" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="N38Kv8uFTcTHmcsksyS8-210">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-214" edge="1" parent="1" source="N38Kv8uFTcTHmcsksyS8-206" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="N38Kv8uFTcTHmcsksyS8-213" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-206" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="搜尋對應表&lt;div&gt;查詢品項是否建立&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="560" y="2520" as="geometry" />
+        </mxCell>
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-210" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="輸入進貨數量" vertex="1">
+          <mxGeometry height="80" width="159.5" x="560.5" y="2640" as="geometry" />
+        </mxCell>
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-212" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="是" vertex="1">
+          <mxGeometry height="30" width="60" x="640" y="2600" as="geometry" />
+        </mxCell>
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-213" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="品項建立流程" vertex="1">
+          <mxGeometry height="120" width="120" x="360" y="2500" as="geometry" />
+        </mxCell>
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-215" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="否" vertex="1">
+          <mxGeometry height="30" width="60" x="510" y="2530" as="geometry" />
+        </mxCell>
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-217" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="將" vertex="1">
+          <mxGeometry height="80" width="159.5" x="560" y="2760" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
