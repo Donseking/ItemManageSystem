@@ -799,11 +799,20 @@
         <mxCell id="N38Kv8uFTcTHmcsksyS8-190" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="從記錄倉庫讀取該品項&lt;div&gt;進出貨紀錄&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="159" x="1121" y="2640" as="geometry" />
         </mxCell>
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-199" edge="1" parent="1" source="N38Kv8uFTcTHmcsksyS8-192" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="N38Kv8uFTcTHmcsksyS8-198" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="N38Kv8uFTcTHmcsksyS8-192" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="計算新庫存量" vertex="1">
           <mxGeometry height="80" width="159" x="1121" y="2760" as="geometry" />
         </mxCell>
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-197" edge="1" parent="1" source="N38Kv8uFTcTHmcsksyS8-195" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="N38Kv8uFTcTHmcsksyS8-190">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="N38Kv8uFTcTHmcsksyS8-195" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="讀取該品項庫存量" vertex="1">
           <mxGeometry height="80" width="159" x="1121" y="2520" as="geometry" />
+        </mxCell>
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-198" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="存回品項" vertex="1">
+          <mxGeometry height="80" width="159" x="1121" y="2880" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
