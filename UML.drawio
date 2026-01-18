@@ -859,7 +859,7 @@
         <mxCell id="N38Kv8uFTcTHmcsksyS8-220" parent="N38Kv8uFTcTHmcsksyS8-218" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
           <mxGeometry height="8" width="410" y="52" as="geometry" />
         </mxCell>
-        <mxCell id="N38Kv8uFTcTHmcsksyS8-221" parent="N38Kv8uFTcTHmcsksyS8-218" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ getTable( String : ItemName ) :&amp;nbsp; String : ItemName" vertex="1">
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-221" parent="N38Kv8uFTcTHmcsksyS8-218" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ getTable( String : ItemName ) :&amp;nbsp; String : ItemNumber" vertex="1">
           <mxGeometry height="26" width="410" y="60" as="geometry" />
         </mxCell>
         <mxCell id="N38Kv8uFTcTHmcsksyS8-222" edge="1" parent="1" source="N38Kv8uFTcTHmcsksyS8-54" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" target="N38Kv8uFTcTHmcsksyS8-218" value="Use">
