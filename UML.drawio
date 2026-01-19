@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.1">
   <diagram name="Page-1" id="kzkzvZBYqJW7hlvxWcU9">
-    <mxGraphModel dx="1810" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2253" dy="823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1032,6 +1032,9 @@
         </mxCell>
         <mxCell id="N38Kv8uFTcTHmcsksyS8-421" parent="N38Kv8uFTcTHmcsksyS8-422" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;標籤編號表初始化流程&lt;/span&gt;" vertex="1">
           <mxGeometry height="30" width="480" x="81" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="N38Kv8uFTcTHmcsksyS8-423" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="品項建立流程開始" vertex="1">
+          <mxGeometry height="80" width="160" x="1680" y="1400" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
